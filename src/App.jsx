@@ -1,6 +1,6 @@
 import React from 'react';
-import IntervalCounter from './SomeComponent';
-import ClassIntervalCounter from './SomeClassComponent';
+import SomeComponent from './SomeComponent';
+import SomeClassComponent from './SomeClassComponent';
 
 import './App.css';
 
@@ -8,9 +8,9 @@ const App = () => {
   return (
     <div className="App">
       <h1>Error Boundaries</h1>
-      <IntervalCounter />
+      <SomeComponent />
       <hr />
-      <ClassIntervalCounter />
+      <SomeClassComponent />
     </div>
   );
 };
